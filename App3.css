@@ -1,0 +1,29 @@
+.game {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.game-info {
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 4px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
